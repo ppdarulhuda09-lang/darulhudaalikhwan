@@ -167,8 +167,8 @@ export default function Home() {
                   </p>
                 ))}
                 <div className="flex items-center gap-4 mt-8">
-                  <div className="w-19 h-19 rounded-full bg-slate-500 overflow-hidden">
-                    <img src={settings?.fotoKepalaSekolah || "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=256&auto=format&fit=crop"} alt="Kepala Sekolah" className="w-full h-full object-cover" />
+                  <div className="w-16 h-16 rounded-full bg-slate-200 overflow-hidden">
+                    <img src={settings?.fotoKepalaSekolah || "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=256&auto=format&fit=crop"} alt="Kepala Sekolah" className="w-300 h-300 object-cover" />
                   </div>
                   <div>
                     <h4 className="font-bold text-slate-900">{settings?.namaKepalaSekolah || 'Kepala Sekolah'}</h4>
