@@ -172,7 +172,10 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="font-bold text-slate-900">{settings?.namaKepalaSekolah || 'Kepala Sekolah'}</h4>
-                    <p className="text-sm text-slate-500">Pimpinan {settings?.namaSekolah}</p>
+                    <p className="text-sm text-slate-500">Assalamu’alaikum Warahmatullahi Wabarakatuh.
+                      Pondok Pesantren Darul Huda Al-ikhwan hadir sebagai ikhtiar mencetak generasi penerus yang tidak hanya cerdas secara intelektual, tetapi juga berakhlak mulia, mandiri, dan berpemahaman agama yang kokoh.
+                      Kami memadukan kurikulum kepesantrenan modern dan pendidikan formal untuk menjawab tantangan zaman.Mari percayakan pendidikan buah hati Anda bersama kami, menjadi bagian dari generasi yang qurrota a’yun, berbakti pada agama, bangsa, dan negara.
+                      Wabillahi taufiq wal hidayah.Wassalamu’alaikum Warahmatullahi Wabarakatuh. {settings?.namaSekolah}</p>
                   </div>
                 </div>
               </div>
